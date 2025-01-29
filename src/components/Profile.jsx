@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "motion/react"
 import {HERO_CONTENT} from '../constants/index'
-import porfilePic from "../assets/kevinRushProfile.png"
+import porfilePic from "../assets/prerith_photo.png"
 const Profile = () => {
   return (
     <div className='container flex my-20  '>
@@ -39,7 +39,7 @@ const Profile = () => {
   }}
        className='w-[300px] lg:w-[500px] '>
          <div className='flex h-full bg-profile  justify-center' >
-         <img  src={porfilePic}  className='w-[400px] ' alt="" />
+         <img className="w-[400px] h-[400px] rounded-lg " src={porfilePic}   alt="" />
          </div>
        </motion.div>
       </div>
